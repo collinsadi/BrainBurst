@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBurst - Test Your Brain!</title>
+    <link rel="stylesheet" href="./assets/css/style.css"
+</head>
+<body>
+    <header>
+        <h1>BrainBurst</h1>
+        <p>Test Your Brain!</p>
+        <nav>
+            <a href="./pages/game.html" id="startGameButton" class="blue-button">Take Quiz</a>
+            <a href="./pages/highscores.html" class="blue-button">High Scores</a>
+        </nav>
+        <!-- <a class="button" href="#" id="startBrainBurstButton">Start BrainBurst</a> -->
+    </header>
+    <script>
+        document.getElementById("startBrainBurstButton").addEventListener("click", function() {
+            var gameContent = document.getElementById("gameContent");
+            if (gameContent.style.display === "none") {
+                gameContent.style.display = "block";
+            }
+        });
+    </script>
+</body>
+</html>

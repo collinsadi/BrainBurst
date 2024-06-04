@@ -1,0 +1,35 @@
+[
+    {
+      "question": "What is the capital of Italy?",
+      "choice1": "Berlin",
+      "choice2": "Madrid",
+      "choice3": "Paris",
+      "choice4": "Rome",
+      "answer": 4
+    },
+    {
+      "question": "Which planet is known as the Red planet?",
+      "choice1": "Earth",
+      "choice2": "Jupiter",
+      "choice3": "Mars",
+      "choice4": "Venus",
+      "answer": 3
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "choice1": "Gold",
+      "choice2": "Iron",
+      "choice3": "Quartz",
+      "choice4": "Diamond",
+      "answer": 4
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "choice1": "1982",
+        "choice2": "1921",
+        "choice3": "1912",
+        "choice4": "1219",
+        "answer": 3
+    }
+    
+  ]

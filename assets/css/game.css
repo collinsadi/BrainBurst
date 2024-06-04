@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center; /* Align content horizontally center */
+  align-items: center; /* Align content vertically center */
+  /* overflow: hidden; Prevent overflow */
+  height: 100vh; /* Make body full height of viewport */
+  margin: 0; /* Remove default margin */
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgba(86, 235, 118, 0.25);
+  background-color: white;
+  align-items: center;
+  overflow: hidden;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(32, 58, 229, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #1410e1;
+  color: rgb(252, 246, 248);
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+.btn{
+  background-color: #007bff; /* Blue color */
+color: white; /* Text color */
+border: none;
+padding: 1rem 1rem; /* Increase padding for larger button */
+font-size: 1.2rem; /* Increase font size */
+cursor: pointer;
+border-radius: 0.2rem;
+transition: background-color 0.3s ease;
+text-decoration: none;
+}
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #1410e1;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: #1410e1;
+  width: 0%;
+}
+
+/* LOADER */
+#loader {
+  border: 1.6rem solid white;
+  border-radius: 50%;
+  border-top: 1.6rem solid #1410e1;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
